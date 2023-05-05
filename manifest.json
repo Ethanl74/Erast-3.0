@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Erast But Good This TIme",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "newspaper.png",
+    "default_popup": "popup.html",
+    "default_title": "Erast"
+  }
+}
